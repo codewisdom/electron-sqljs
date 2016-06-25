@@ -1,0 +1,29 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Electron boilerplate</title>
+		<link rel="stylesheet" href="index.css">
+	</head>
+	<body>
+		<script>
+      window.$ = window.jQuery = require('jquery');
+    </script>
+    <script src="db.js"></script>
+		<div class="container">
+			<section class="main"></section>
+			<h1>Electron boilerplate</h1>
+			<div id="dbrows">
+      	<h2>Database Rows</h2>
+    	</div>
+    <script>
+      $( document ).ready(function() {
+          db.each("SELECT rowid AS id, info FROM lorem", function(row) {
+            $('#dbrows').append(row.id + ": " + row.info + "<br />");
+          });
+      });
+    </script>
+			<footer></footer>
+		</div>
+	</body>
+</html>

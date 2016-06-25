@@ -1,0 +1,25 @@
+html,
+body {
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	font-family: -apple-system, 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+header {
+	position: absolute;
+	width: 500px;
+	height: 250px;
+	left: 50%
+	top: 50%
+	text-align: center;
+}
+
+header h1 {
+	font-size: 60px;
+	font-weight: 100;
+	margin: 50px;
+	padding: 50px;
+}

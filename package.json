@@ -1,0 +1,45 @@
+{
+  "name": "y",
+  "productName": "Y",
+  "version": "0.0.0",
+  "description": "My mathematical app",
+  "license": "MIT",
+  "repository": "y/y",
+  "author": {
+    "name": "Sam",
+    "email": "philosopher.sam@gmail.com",
+    "url": "y"
+  },
+  "scripts": {
+    "test": "xo",
+    "start": "electron .",
+    "build": "electron-packager . --out=dist --app-version=$npm_package_version --prune --asar --overwrite --all"
+  },
+  "files": [
+    "index.js",
+    "index.html",
+    "index.css"
+  ],
+  "keywords": [
+    "electron-app",
+    "electron"
+  ],
+  "dependencies": {
+    "electron-debug": "^1.0.0",
+    "jquery": "^2.1.4",
+    "sql.js": "^0.3.2"
+  },
+  "devDependencies": {
+    "devtron": "^1.1.0",
+    "electron-packager": "^7.0.0",
+    "electron-prebuilt": "^1.0.1",
+    "xo": "^0.15.0"
+  },
+  "xo": {
+    "esnext": true,
+    "envs": [
+      "node",
+      "browser"
+    ]
+  }
+}
