@@ -17,6 +17,7 @@ $ npm start
 ```
 
 ### Build
+NOTE: You probably won't be doing this. I just left this boilerplate info here.
 
 ```
 $ npm run build
