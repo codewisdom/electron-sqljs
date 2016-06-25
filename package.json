@@ -1,14 +1,14 @@
 {
-  "name": "y",
-  "productName": "Y",
-  "version": "0.0.0",
-  "description": "My mathematical app",
+  "name": "electron-sqljs",
+  "productName": "electron",
+  "version": "0.0.1",
+  "description": "Demonstrates use of sql.js with electron",
   "license": "MIT",
   "repository": "y/y",
   "author": {
     "name": "Sam",
     "email": "philosopher.sam@gmail.com",
-    "url": "y"
+    "url": "https://bytes.st"
   },
   "scripts": {
     "test": "xo",
@@ -22,7 +22,8 @@
   ],
   "keywords": [
     "electron-app",
-    "electron"
+    "electron",
+    "sql.js"
   ],
   "dependencies": {
     "electron-debug": "^1.0.0",

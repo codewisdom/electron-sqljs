@@ -1,7 +1,8 @@
-# y
+# electron-sqljs
 
-> My mathematical app
+Demonstrates the use of sql.js with electron
 
+Loosely based upon the electron-sqlite3 project available on github
 
 ## Dev
 
@@ -25,5 +26,4 @@ Builds the app for OS X, Linux, and Windows, using [electron-packager](https://g
 
 
 ## License
-
-MIT © [Sam](http://bytes.st)
+MIT © [Samuel L. Sellars](http://bytes.st)
