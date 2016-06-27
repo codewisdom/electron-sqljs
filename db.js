@@ -16,7 +16,7 @@
   }
 
   try {
-  	db.run("CREATE TABLE lorem (info TEXT)");
+  	db.run("CREATE TABLE lorem (info INT)");
   } catch (e) {
   	console.log(e);
   }
@@ -26,7 +26,7 @@
   }
 
   db.each("SELECT * FROM lorem", function(row) {
-  	console.log(row.info + " is cool!")
+  	console.log(row.info + " is an integer!");
   });
 
   try {
