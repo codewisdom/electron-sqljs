@@ -6,6 +6,8 @@ Loosely based upon the electron-sqlite3 project available on github
 
 Tested on Windows 10 and OS X 10.11.5 with node v6.2.2.
 
+### NOTE: This commit marks the end of the original implementation.
+
 ## Dev
 
 ```
